@@ -34,7 +34,7 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
-  <project path="manifest" name="dot_manifest" remote="github"  revision="dot12.1" />
+  <project path="manifest" name="leddaz-stuff/dot_manifest" remote="github"  revision="dot12.1" />
 
   <project path="art" name="android_art" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
