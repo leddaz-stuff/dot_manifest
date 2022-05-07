@@ -212,7 +212,7 @@
   <project path="vendor/support" name="android_vendor_support" remote="dot" />
   <project path="vendor/custom-preference" name="android_vendor_custom-preference" remote="dot" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="dot-gitlab" />
-  <project path="vendor/lawnicons" name="leddaz-stuff/statix_vendor_lawnicons" remote="github" revision="dot12.1" />
+  <project path="vendor/lawnicons" name="leddaz-stuff/statix_vendor_lawnicons" remote="github" revision="sc-v2" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="dot" />
