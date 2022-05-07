@@ -34,7 +34,7 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
-  <project path="manifest" name="manifest" remote="dot" />
+  <project path="manifest" name="dot_manifest" remote="github"  revision="dot12.1" />
 
   <project path="art" name="android_art" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
@@ -48,7 +48,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="dot" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="dot" >
+  <project path="build/soong" name="leddaz-stuff/dot_build_soong" groups="pdk,tradefed" remote="github" revision="dot12.1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -98,7 +98,7 @@
 
   <!-- frameworks repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
+  <project path="frameworks/base" name="leddaz-stuff/dot_frameworks_base" remote="github" revision="dot12.1"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="dot" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="dot" />
@@ -207,11 +207,12 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="dot" />
 
   <!-- vendor repos -->
-  <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="vendor/dot" name="leddaz-stuff/android_vendor_dot" remote="github" revision="dot12.1" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="dot" />
   <project path="vendor/support" name="android_vendor_support" remote="dot" />
   <project path="vendor/custom-preference" name="android_vendor_custom-preference" remote="dot" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="dot-gitlab" />
+  <project path="vendor/lawnicons" name="leddaz-stuff/statix_vendor_lawnicons" remote="github" revision="dot12.1" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="dot" />
